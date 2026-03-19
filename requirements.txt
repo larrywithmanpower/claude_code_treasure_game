@@ -1,0 +1,14 @@
+# MCP SDK for Anthropic
+mcp>=1.0.0
+
+# Image processing and manipulation
+Pillow>=10.0.0
+
+# HTTP requests for image downloading
+requests>=2.31.0
+
+# DuckDuckGo search for finding images
+duckduckgo-search>=6.1.0
+
+# Background removal (cpu extra installs onnxruntime for CPU inference)
+rembg[cpu]>=2.0.0
