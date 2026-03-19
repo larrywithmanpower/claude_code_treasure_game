@@ -1,6 +1,6 @@
 # MCP 圖片工具伺服器
 
-🌐 **線上網站：** https://larrywithmanpower.github.io/claude_code_treasure_game/
+🌐 **線上網站：** https://larrywithmanpower.github.io/claude-mcp-image-processor/
 
 這是一個基於 MCP（Model Context Protocol）的圖片處理伺服器，透過 Docker 容器運行，並整合至 Claude Code 中使用。
 
@@ -62,5 +62,5 @@ docker build -t mcp-toy-image-tools-server .
 
 ## 線上展示
 
-- 網站：https://larrywithmanpower.github.io/claude_code_treasure_game/
-- 程式碼：https://github.com/larrywithmanpower/claude_code_treasure_game
+- 網站：https://larrywithmanpower.github.io/claude-mcp-image-processor/
+- 程式碼：https://github.com/larrywithmanpower/claude-mcp-image-processor
