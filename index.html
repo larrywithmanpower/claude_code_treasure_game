@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCP Image Tools — Gallery</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0f0f0f; color: #eee; font-family: sans-serif; padding: 2rem; }
+    h1 { text-align: center; margin-bottom: 0.5rem; font-size: 2rem; }
+    p.subtitle { text-align: center; color: #aaa; margin-bottom: 2rem; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1rem; }
+    .card { background: #1e1e1e; border-radius: 8px; overflow: hidden; text-align: center; padding: 0.5rem; }
+    .card img { width: 100%; height: 150px; object-fit: contain; background: #111; border-radius: 4px; }
+    .card p { font-size: 0.75rem; color: #888; margin-top: 0.4rem; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <h1>MCP Image Tools Server</h1>
+  <p class="subtitle">Processed image gallery — background removal powered by rembg</p>
+  <div class="gallery">
+    <div class="card"><img src="images/single_squid_1_rembg.png" /><p>squid 1 (rembg)</p></div>
+    <div class="card"><img src="images/single_squid_2_rembg.png" /><p>squid 2 (rembg)</p></div>
+    <div class="card"><img src="images/single_squid_3_rembg.png" /><p>squid 3 (rembg)</p></div>
+    <div class="card"><img src="images/single_squid_1_resized.jpg" /><p>squid 1 (resized)</p></div>
+    <div class="card"><img src="images/single_squid_2_resized.jpg" /><p>squid 2 (resized)</p></div>
+    <div class="card"><img src="images/single_squid_3_resized.jpg" /><p>squid 3 (resized)</p></div>
+  </div>
+</body>
+</html>

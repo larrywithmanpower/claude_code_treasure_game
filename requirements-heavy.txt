@@ -1,0 +1,2 @@
+# Intentionally empty - heavy deps removed (torch/CUDA not needed)
+# rembg uses onnxruntime instead of torch

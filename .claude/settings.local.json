@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker:*)",
+      "mcp__image-tools-server-docker__resize_image",
+      "mcp__image-tools-server-docker__fetch_toy_image"
+    ]
+  }
+}
